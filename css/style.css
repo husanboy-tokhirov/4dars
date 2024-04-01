@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-list2 ul{
+    display: flex;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    gap: 60px;
+}
+
+.nav-title{
+    margin-left: -50px;
+    font-family: "DM Mono";
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.nav-title2{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: right;
+    font-family: "Inter";
+}
+
+
+                /* navbar tugadi */
+
+                /* hero  boshlandi */
+
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content h1{
+    font-size: 90px;
+    font-weight: 300;
+    text-align: left;
+    font-family: "DM Mono";
+    padding: 173px 30px 60px 60px;
+}
+.hero-info p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    font-family: "Inter";
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 151px;
+    margin-top: 120px;
+    padding: 0px 60px;
+}
+
+
+       /* hero   tugagan */
+
+       /* info  boshlash */
+  
+
+.info-text {
+    background-color: #CAFC01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px;
+}
+
+.info-text marquee{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.info-text span{
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+
+
+.info-text h2{
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 72px;
+    text-align: left;
+    font-family: "DM Mono";
+}
+
+         /* info tugagan */
+ 
+         /* video  boshlash */
+
+
+.video-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #000;
+    position: relative;
+  }
+   
+.video-link {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #fff; 
+}
+   
+.video-link{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+
+}
+
+.video-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    gap: 0 20px;
+}
+.video-list h2{
+    color: grey;
+}
+
+.video-list strong{
+    color: #fff;
+}
+
+.video-image{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
+
+
+
+            /* video   tugagan */
+
+
+            /* content   boshlash  */
+
+ 
+.content-link{
+    height: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+}
+
+.content-text h2{
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 72px;
+    text-align: left;
+    font-family: "DM Mono";
+}
+
+
+         /* content    tugagan */
+
+
+         /* info-two    boshlash */
+
+
+         .info-two-text{
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px 0px;
+        }
+        
+        .info-two-text marquee{
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+        }
+
+        .info-two-text span{
+            color: #CAFC01;
+            margin: 0px 10px;
+            display: inline-block;
+        }
+        
+        
+        
+        .info-two-text h2{
+            font-size: 56px;
+            font-weight: 300;
+            line-height: 72px;
+            text-align: left;
+            font-family: "DM Mono";
+            color: #fff;
+        }       
+
+
+
+             /* info-two   tugagan */
+   
+             /* media   boshlash */
+
+
+#media{
+    background-image: url(../images/bino.jpeg);
+    background-size: cover;
+}
+
+
+
+.media-title{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}  
+
+.media-list{
+    width: 207px;
+    left: 60px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: "Inter";
+    padding: 69px 60px;
+    white-space: nowrap;
+}
+
+.media-image{
+    padding: 60px 60px;
+}
+
+
+             /* media   tugagan */
+
+
+             /* content2    boshlash */
+
+
+.content2-link{
+    height: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+}
+            
+.content2-list h2{
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 72px;
+    text-align: left;
+    font-family: "DM Mono";
+}
+
+
+            /* content2   tugagan */
+
+
+
+            /* footer      boshlash */
+
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 60px;
+}
+
+.footer-paraprph {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #111C24;
+}
+.footer-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+            
+}
+.footer-cards-main {
+    display: flex;
+    gap: 0 104px;
+}
+.footer-cards-main-2 {
+    display: flex;
+    gap: 0 90px;
+}
+.cards-main-list {
+    color: #111C24;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    border-bottom: 1px solid #111C24;
+}
+.footer-main-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #111C24;
+}
